@@ -68,7 +68,7 @@ def scrape(filename,driver,jobs,mode):
 
 def scrapemode(file, mode):
     mainurl= "https://remoteok.io/remote-dev-jobs"
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.get(mainurl)  
     jobs = driver.find_elements_by_tag_name("tr")
     jobs = [x for x in jobs if "job-" in x.get_attribute('id')]
