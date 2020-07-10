@@ -5,7 +5,7 @@ Pitch big clients is a Python script to scrape data from different job portals a
 
 # Usage
 
-The script uses two modes:
+The script can work in two modes:
 - Working with existing csv
 - Creating a new csv 
 
